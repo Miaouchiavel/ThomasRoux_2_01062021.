@@ -3,6 +3,9 @@ body {
     src: url('Raleway/Raleway-VariableFont_wght.ttf');
 }
 
+
+/* NAV */
+
 nav {
     display: flex;
     justify-content: space-between;
