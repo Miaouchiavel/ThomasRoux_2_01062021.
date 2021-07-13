@@ -2,3 +2,21 @@
     font-family: 'MaSuperPolice';
     src: url('Raleway/Raleway-VariableFont_wght.ttf');
 }
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav img {
+    height: 40px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav li {
+    margin-right: 40px;
+}
