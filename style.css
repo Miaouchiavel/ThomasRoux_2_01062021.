@@ -23,3 +23,33 @@ nav ul {
 nav li {
     margin-right: 40px;
 }
+
+
+/* HEBERGEMENTS & POPULAIRE*/
+
+.flexaround {
+    display: flex;
+    justify-content: space-around;
+}
+
+.taillehebergement {
+    flex: 2;
+    height: 650px;
+    margin-right: 20px;
+    border-radius: 20px;
+    background-color: beige;
+}
+
+.taillepopulaire {
+    flex: 1;
+    height: 650px;
+    margin-left: 20px;
+    border-radius: 20px;
+    background-color: beige;
+}
+
+
+/* ACTIVITE A MARSEILLE */
+
+
+/* FOOTER */
