@@ -16,9 +16,13 @@ header img {
     width: 90px;
 }
 
-nav ul {
+nav ul,
+nav a {
     display: flex;
     list-style: none;
+    text-decoration: none;
+    padding: 20px;
+    color: black;
 }
 
 
