@@ -7,10 +7,6 @@ body {
 
 /* NAV */
 
-* {
-    border: 1px solid;
-}
-
 strong {
     font-weight: bold;
     color: #0065fc;
