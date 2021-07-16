@@ -6,22 +6,19 @@ body {
 
 /* NAV */
 
-nav {
+.Nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
-nav img {
-    height: 40px;
+header img {
+    width: 90px;
 }
 
 nav ul {
     display: flex;
     list-style: none;
-}
-
-nav li {
-    margin-right: 40px;
 }
 
 
