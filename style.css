@@ -1,28 +1,50 @@
 body {
     font-family: 'Raleway';
     src: url('Raleway/Raleway-VariableFont_wght.ttf');
+    margin: 0px;
 }
 
 
 /* NAV */
 
-.Nav {
+* {
+    border: 1px solid;
+}
+
+strong {
+    font-weight: bold;
+    color: #0065fc;
+}
+
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-direction: row;
+    margin: 0px;
 }
 
 header img {
-    width: 90px;
+    width: 95px;
+    height: 45px;
 }
 
 nav ul,
 nav a {
     display: flex;
+    justify-content: top;
     list-style: none;
     text-decoration: none;
     padding: 20px;
     color: black;
+    margin: 0px;
+    margin-left: 26px;
+}
+
+nav li a:hover {
+    border-top: 2px solid #0065fc;
+    padding-top: 21px;
+    color: #0065fc;
 }
 
 
@@ -38,7 +60,7 @@ nav a {
     height: 650px;
     margin-right: 20px;
     border-radius: 20px;
-    background-color: beige;
+    background-color: #F2F2F2;
 }
 
 .taillepopulaire {
@@ -46,7 +68,7 @@ nav a {
     height: 650px;
     margin-left: 20px;
     border-radius: 20px;
-    background-color: beige;
+    background-color: #F2F2F2;
 }
 
 
