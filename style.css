@@ -1,7 +1,7 @@
 body {
     font-family: 'Raleway';
     src: url('Raleway/Raleway-VariableFont_wght.ttf');
-    margin: 0px;
+    margin: 10px 50px;
 }
 
 
@@ -15,32 +15,30 @@ strong {
 .header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    flex-direction: row;
-    margin: 0px;
+    align-items: flex-end;
 }
 
-header img {
-    width: 95px;
-    height: 45px;
-}
-
-nav ul,
-nav a {
+.navbar {
     display: flex;
-    justify-content: top;
-    list-style: none;
-    text-decoration: none;
-    padding: 20px;
-    color: black;
-    margin: 0px;
-    margin-left: 26px;
+    justify-content: space-around;
 }
 
-nav li a:hover {
-    border-top: 2px solid #0065fc;
-    padding-top: 21px;
-    color: #0065fc;
+nav li {
+    display: inline;
+}
+
+nav a:hover {
+    color: #DEEBFF;
+    border-top: 2px #0065FC solid;
+    padding: top 10px;
+}
+
+nav a {
+    text-decoration: none;
+    justify-content: space-between;
+    color: black;
+    padding-top: 23px;
+    padding: 20px;
 }
 
 
