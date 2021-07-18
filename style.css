@@ -1,7 +1,7 @@
 body {
     font-family: 'Raleway';
     src: url('Raleway/Raleway-VariableFont_wght.ttf');
-    margin: 10px 50px;
+    margin: 20px 50px;
 }
 
 
@@ -15,12 +15,13 @@ strong {
 .header {
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: center;
 }
 
 .navbar {
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 nav li {
@@ -28,17 +29,15 @@ nav li {
 }
 
 nav a:hover {
-    color: #DEEBFF;
-    border-top: 2px #0065FC solid;
-    padding: top 10px;
+    color: #0065FC;
+    border-top: 4px #0065FC solid;
 }
 
 nav a {
     text-decoration: none;
     justify-content: space-between;
     color: black;
-    padding-top: 23px;
-    padding: 20px;
+    padding: 34px;
 }
 
 
