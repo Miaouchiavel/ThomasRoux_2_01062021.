@@ -5,7 +5,7 @@ body {
 }
 
 .blocka {
-    margin: 20px 50px;
+    margin: 27px 50px;
 }
 
 
@@ -34,14 +34,14 @@ nav li {
 
 nav a:hover {
     color: #0065FC;
-    border-top: 10px #0065FC solid;
+    border-top: 5px #0065FC solid;
 }
 
 nav a {
     text-decoration: none;
     justify-content: space-between;
     color: black;
-    padding: 30px;
+    padding: 40px;
 }
 
 
@@ -105,6 +105,7 @@ footer li {
     text-decoration: none;
     line-height: 30px;
     list-style: none;
+    justify-content: space-evenly;
 }
 
 footer div {
