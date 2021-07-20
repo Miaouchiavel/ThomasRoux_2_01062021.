@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <title>Site Reservia</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a11fbdc722.js" crossorigin="anonymous"></script>
 
 </head>
 
@@ -12,79 +13,83 @@
 
     <!-- LOGO NAV -->
 
-    <header>
-        <div class="header blocka">
-            <div>
-                <a href="#" title="homepage"> <img src="images/logo/Reservia.svg" alt="logo reservia"></a>
-            </div>
-            <div>
-
-                <nav class="navbar">
-                    <ul>
-                        <li><a href="#Hébergements" title="Hébergements">Hébergements</a></li>
-                        <li><a href="#Activités" title="Activités">Activités</a></li>
-                    </ul>
-                    <div>
-                        <a href="#" title="s'inscrire"><strong>S'inscrire</strong></a>
-                    </div>
-                </nav>
-            </div>
-        </div>
-
-
-        <section class="blocka">
-            <div class="soustitre">
-                <p>
-                    <h1 class="titre_principal">Trouver votre hébergement pour des vacances de rêve</h1>
-                    <h2 class="titre_secondaire">En plein centre ville ou en pleine nature</h2>
-                </p>
-            </div>
-        </section>
-
-        <!-- BARRE DE RECHERCHE -->
-        <section class="blocka">
-            <form>
-                <input type="search" placeholder="Marseille, France" id="site-search" name="q" aria-label="Search through site content">
-                <button>Rechercher</button>
-            </form>
-
-            <!-- FILTRE -->
-
-
-            <div class="info">
-                <p>plus de 500 logements sont disponibles dans cette ville</p>
-            </div>
-        </section>
-
-    </header>
-
-
-
-    <!-- HEBERGEMENT & POPULAIRE -->
     <div class="blocka">
-        <section class="flexaround">
-            <div class="taillehebergement">
-                <h3 id="Hébergements">Hébergement à Marseille</h3>
-                <div></div>
-                <div></div>
+        <header>
+            <div class="header">
+                <div>
+                    <a href="#" title="homepage"> <img src="images/logo/Reservia.svg" alt="logo reservia"></a>
+                </div>
+                <div>
 
+                    <nav class="navbar">
+                        <ul>
+                            <li><a href="#Hébergements" title="Hébergements">Hébergements</a></li>
+                            <li><a href="#Activités" title="Activités">Activités</a></li>
+                        </ul>
+                        <div>
+                            <a href="#" title="s'inscrire"><strong>S'inscrire</strong></a>
+                        </div>
+                    </nav>
+                </div>
             </div>
-            <div class="taillepopulaire">
-                <h3>Les plus populaires</h3>
-            </div>
-        </section>
 
 
-        <!--ACTIVITE A MARSEILLE -->
+            <section>
+                <div>
+                    <p class="soustitre">
+                        <h1 class="titre_principal">Trouver votre hébergement pour des vacances de rêve</h1>
+                        <h2 class="titre_secondaire">En plein centre ville ou en pleine nature</h2>
+                    </p>
+                </div>
+            </section>
 
-        <section class="blocka">
-            <div>
-                <h4 id="Activités">Activités à Marseille </h4>
-                <div></div>
-                <div></div>
+            <!-- BARRE DE RECHERCHE -->
+            <section>
+                <form>
+                    <i class="fas fa-map-marker-alt"></i>
+                    <input type="search" placeholder="Marseille, France" id="site-search" name="q" aria-label="Search through site content">
+                    <button>Rechercher</button>
+                </form>
 
-            </div>
-        </section>
+                <!-- FILTRE -->
+
+
+                <div class="info">
+                    <p>plus de 500 logements sont disponibles dans cette ville</p>
+                </div>
+            </section>
+
+        </header>
+
+
+
+        <!-- HEBERGEMENT & POPULAIRE -->
+        <div>
+            <section class="flexaround">
+                <div class="taillehebergement">
+                    <h3 id="Hébergements">Hébergement à Marseille</h3>
+                    <div></div>
+                    <div></div>
+
+                </div>
+                <div class="taillepopulaire">
+                    <h3>Les plus populaires</h3>
+                </div>
+            </section>
+
+
+            <!--ACTIVITE A MARSEILLE -->
+
+            <section class="blocka">
+                <div>
+                    <h4 id="Activités">Activités à Marseille </h4>
+                    <div></div>
+                    <div></div>
+
+                </div>
+            </section>
+
+        </div>
 
     </div>
     <!-- BAS DE PAGE -->

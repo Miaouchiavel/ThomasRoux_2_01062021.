@@ -44,12 +44,27 @@ nav a {
     padding: 40px;
 }
 
-div .soustitre {
-    padding: 0px
+.soustitre {
+    line-height: 0px;
 }
 
 
 /*RECHERCHE*/
+
+.fas fa-map-marker-alt {
+    border-radius: 0 1rem 1rem 0;
+}
+
+button {
+    border-radius: 0 1rem 1rem 0;
+    color: white;
+    background-color: #0065FC;
+    font-size: 1rem;
+}
+
+form {
+    display: inline-flex;
+}
 
 .titre {
     margin-top: 40px;
@@ -61,8 +76,9 @@ h3 {
 }
 
 h2 {
-    font-size: 12px;
+    font-size: 14px;
     font-weight: normal;
+    border: 0px;
 }
 
 
