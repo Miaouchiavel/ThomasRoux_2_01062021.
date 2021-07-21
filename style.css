@@ -180,6 +180,10 @@ span {
 
 /* HEBERGEMENTS & POPULAIRE*/
 
+h4 {
+    margin: 20px;
+}
+
 .box {
     color: black;
     width: 27%;
