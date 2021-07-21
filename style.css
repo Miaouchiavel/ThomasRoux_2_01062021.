@@ -66,6 +66,7 @@ input {
     padding: 0 0.5rem;
     font-weight: bold;
     font-size: 1rem;
+    color: black
 }
 
 button {
@@ -102,6 +103,29 @@ h2 {
     font-weight: normal;
     margin-top: 8px;
     margin-bottom: 26px;
+}
+
+
+/*FIlTRE*/
+
+.block_filtres {
+    display: flex;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+}
+
+.filtres_slide {
+    display: flex;
+    border-radius: 2rem;
+    margin-right: 2rem;
+    border: 2px solid #d9d9d9;
+    align-items: center;
+    font-weight: bold;
+}
+
+.icons {
+    background-color: #DEEBFF;
+    border-radius: 100%
 }
 
 
