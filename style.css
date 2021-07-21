@@ -45,7 +45,7 @@ nav a {
 }
 
 .soustitre {
-    line-height: 0px;
+    margin-top: 0px;
 }
 
 
@@ -55,11 +55,29 @@ nav a {
     border-radius: 0 1rem 1rem 0;
 }
 
+.searchicon {
+    border-radius: 1rem 0 0 1rem;
+    background-color: #F2F2F2;
+    padding: 1rem 1.25rem;
+}
+
+input {
+    border: none;
+    padding: 0 0.5rem;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
 button {
     border-radius: 0 1rem 1rem 0;
     color: white;
     background-color: #0065FC;
     font-size: 1rem;
+    border: none;
+    padding: 0rem 1.25rem;
+    font-weight: bold;
+    font-size: 1rem;
+    font-family: Raleway;
 }
 
 form {
@@ -72,13 +90,18 @@ form {
 
 h1,
 h3 {
-    font-size: 20px;
+    font-size: 23px;
+}
+
+h1 {
+    margin-bottom: 0px;
 }
 
 h2 {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: normal;
-    border: 0px;
+    margin-top: 8px;
+    margin-bottom: 26px;
 }
 
 
