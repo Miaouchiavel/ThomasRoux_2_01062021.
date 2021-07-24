@@ -11,6 +11,11 @@ body {
 
 /* NAV */
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 strong {
     font-weight: bold;
     color: #0065fc;
@@ -181,29 +186,34 @@ form p {
 /* HEBERGEMENTS & POPULAIRE*/
 
 h4 {
-    margin: 20px;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    font-size: 20px;
 }
 
 .bold {
     font-weight: bold;
-    margin-left: 1rem;
-    font-size: 14px;
+    margin-left: 0.5rem;
+    font-size: 16px;
     margin-top: 0.5rem;
     margin-bottom: 0rem;
 }
 
 .soustext {
-    font-size: 12px;
-    margin-left: 1rem;
-    margin-top: 0rem;
+    font-size: 14px;
+    margin-left: 0.5rem;
+    margin-top: 0.4rem;
 }
 
 .stars {
     list-style: none;
-    margin-left: 1rem;
-    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    margin-top: 0.3rem;
+    margin-bottom: 0rem;
     padding: 0px;
     padding-right: 0rem;
+    font-size: 12px;
 }
 
 .fas :fa-star {
@@ -214,7 +224,7 @@ h4 {
     color: black;
     width: 27%;
     height: auto;
-    box-shadow: 1px 1px 12px #f2f2f2;
+    box-shadow: 1px 1px 15px #0707073d;
     padding: 5px;
     margin: 20px;
     background-color: white;
@@ -229,12 +239,16 @@ h4 {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    margin: 0px auto;
     justify-content: space-evenly;
 }
 
 .blockc {
+    text-decoration: none;
     font-weight: bold;
+    margin-bottom: 40px;
+    margin-left: 30px;
+    margin-top: 20px;
+    color: black;
 }
 
 .image {
