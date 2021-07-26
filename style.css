@@ -325,7 +325,7 @@ form p {
 }
 
 .popular_box_container {
-    padding-right: 3rem;
+    padding-right: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between
