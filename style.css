@@ -211,18 +211,19 @@ form p {
     padding: 1rem 0 0 1.5rem;
 }
 
-.box_card {
+.box_car {
     margin: 1rem;
-    flex: 27%;
-    border-radius: 20px;
-    padding: .3rem .3rem 1.5rem .3rem;
-    background-color: white;
-    box-shadow: .1rem .1rem .4rem rgba(0, 0, 0, .1);
 }
 
 .hebergement_box_link {
+    padding: .3rem .3rem 0rem .3rem;
+    margin: 1rem;
     text-decoration: none;
     outline: none;
+    flex: 27%;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: .1rem .1rem .4rem rgba(0, 0, 0, 0.282);
 }
 
 .hebergement_box_picture {
@@ -239,25 +240,25 @@ form p {
 }
 
 .hebergement_box_container {
-    height: 5rem;
+    padding-top: 7px;
+    padding-left: 13px;
+    padding-bottom: 0px;
 }
 
 .hebergement_box_container h5 {
-    font-size: 1.2rem;
-    padding: .5rem 0 0 1rem;
-    margin: 0px
+    font-size: 17px;
+    margin-top: 0;
+    margin-bottom: 4px;
 }
 
 .hebergement_box_container p {
-    margin: 0;
-    padding: .5rem 0 0 1rem;
-    margin-bottom: .3rem;
-    font-size: 1.1rem;
+    margin-bottom: 4px;
+    margin-top: 0;
+    font-size: 14px;
 }
 
 .hebergement_star {
-    margin-left: 1rem;
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: #0065fc;
 }
 
@@ -279,26 +280,27 @@ form p {
     flex-direction: column;
     justify-content: space-around;
     background-color: #F2F2F2;
-    padding: 1rem 1rem 2rem 1rem;
+    padding: 1rem;
     border-radius: 20px;
     width: 33%;
     flex-direction: column;
 }
 
-.popular_card {
+.popular_box {
     display: flex;
     flex-direction: row;
     margin: 1rem;
     border-radius: 20px;
     padding: .3rem;
     background-color: white;
-    box-shadow: .1rem .1rem .4rem rgba(0, 0, 0, .1);
+    box-shadow: .1rem .1rem .4rem rgba(0, 0, 0, 0.261);
 }
 
 .popular_header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    padding: 1rem 0 0 1.5rem;
 }
 
 .fas.fa-chart-line {
@@ -308,52 +310,61 @@ form p {
 .popular_title {
     font-size: 1.4rem;
     margin: 0;
-    padding: 1rem 0 0 1.5rem;
 }
 
-.popular_box_picture {
-    height: auto;
-    min-width: 8rem;
-    max-width: 8rem;
-}
-
-.popular_box_picture img {
-    width: 100%;
-    height: 8rem;
+.popular_box_picture_1 {
+    background-image: url(images/hebergements/4_small/hoteldusoleil.jpg);
+    background-size: cover;
+    ;
+    background-position: center;
+    min-width: 130px;
+    min-height: 140px;
     border-radius: 20px 0 0 20px;
-    object-fit: cover;
+}
+
+.popular_box_picture_2 {
+    background-image: url(images/hebergements/4_small/aucoeurdeleau.jpg);
+    background-size: cover;
+    ;
+    background-position: center;
+    min-width: 130px;
+    min-height: 140px;
+    border-radius: 20px 0 0 20px;
+}
+
+.popular_box_picture_3 {
+    background-image: url(images/hebergements/4_small/hoteltoutbleu.jpg);
+    background-size: cover;
+    background-position: center;
+    min-width: 130px;
+    min-height: 140px;
+    border-radius: 20px 0 0 20px;
 }
 
 .popular_box_container {
-    padding-right: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between
 }
 
 .popular_box_container h5 {
-    font-size: 1.2rem;
-    padding: .3rem 0 0 1rem;
+    font-size: 17px;
     margin: 0px;
+    margin-bottom: 4px;
 }
 
 .popular_box_container p {
     margin: 0;
-    padding: .3rem 0 0 1rem;
-    font-size: 1.1rem;
+    font-size: 14px;
 }
 
 .popular_star {
-    padding-top: 1rem;
-    margin-left: 1rem;
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: #0065fc;
-}
-
-.popular_box {
-    text-decoration: none;
-    outline: none;
-    display: flex;
 }
 
 .fas.fa-star.gray {
@@ -363,77 +374,65 @@ form p {
 
 /* ACTIVITE A MARSEILLE */
 
+#Activités {
+    font-size: 1.4rem;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
 .block_activites {
     display: flex;
-    justify-content: space-between;
+}
+
+.block_activites img {
+    height: 100%;
+    max-height: 100px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+}
+
+.group_colone {
+    width: 50%;
+    display: flex;
     align-items: stretch;
 }
 
-.block_activites figcaption {
-    background: #FFFFFF;
-    height: 40px;
-    border-radius: 0 0 20px 20px;
-    font-weight: bold;
-    margin-top: -4px;
-    padding: 15px 0 0 15px;
-    font-weight: bold;
+.colone_1 .activites_item img {
+    max-height: initial;
+    height: 95%;
 }
 
-.activites_1,
-.activites_2,
-.activites_3,
-.activites_4,
-.activites_5,
-.activites_6 {
-    box-shadow: 0px 0px 20px #c0c0c0;
-    border-radius: 20px;
-    margin-left: 0%;
-    margin-bottom: 1rem;
-    margin-top: 0;
+.colone_1 {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    flex: 1;
+    width: 100px;
 }
 
-.colone_1 img {
-    width: 100%;
-    height: 380px;
-    border-radius: 20px 20px 0 0;
-    object-fit: cover;
+.colone_2 {
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 30%;
+    align-items: center;
 }
 
-.activites_2 img {
-    width: 100%;
-    height: 230px;
-    object-fit: cover;
-}
-
-.activites_3 img {
-    width: 100%;
-    height: 150px;
-    object-fit: cover;
-}
-
-.colone_2 img {
-    width: 100%;
-    border-radius: 20px 20px 0 0;
-}
-
-.colone_3,
-.colone_4,
 .colone_1,
 .colone_2 {
-    width: 25%;
-    align-items: stretch;
+    max-width: 45%;
+    min-width: 45%;
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
-.colone_3 img {
+.activites_item {
     width: 100%;
-    height: 380px;
-    border-radius: 20px 20px 0 0;
-    object-fit: cover;
-}
-
-.colone_4 img {
-    width: 100%;
-    border-radius: 20px 20px 0 0;
+    border-radius: 20px;
+    margin: 0 0 30px 0;
+    box-shadow: 0 5px 40px -20px rgba(5, 5, 5, 0.713);
+    cursor: pointer;
 }
 
 
