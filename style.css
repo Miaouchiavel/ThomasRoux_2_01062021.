@@ -272,6 +272,10 @@ form p {
     cursor: pointer;
 }
 
+.hebergement_box_link:hover {
+    transform: scale(1.1);
+}
+
 
 /*---POPULAIR ---*/
 
@@ -371,6 +375,10 @@ form p {
     color: #dcdcdc;
 }
 
+.popular_box:hover {
+    transform: scale(1.1);
+}
+
 
 /* ACTIVITE A MARSEILLE */
 
@@ -429,6 +437,14 @@ form p {
     cursor: pointer;
     border-radius: 20px;
     position: relative;
+}
+
+.colone_1:hover a,
+.activites_item_2:hover,
+.activites_item_3:hover,
+.activites_item_4:hover,
+.activites_item_5:hover {
+    transform: scale(1.1);
 }
 
 .colone_2 {
