@@ -1,12 +1,7 @@
 body {
     font-family: 'Raleway';
-    src: url('Raleway/Raleway-VariableFont_wght.ttf');
+    src: url('Raleway/Raleway-VariableFont_wght.ttf') format("truetype");
     margin: 0px;
-}
-
-@font-face {
-    font-family: 'Raleway';
-    src: url('Raleway/Raleway-VariableFont_wght.ttf')
 }
 
 .blocka {
