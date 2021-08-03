@@ -4,6 +4,11 @@ body {
     margin: 0px;
 }
 
+@font-face {
+    font-family: 'Raleway';
+    src: url('Raleway/Raleway-VariableFont_wght.ttf')
+}
+
 .blocka {
     margin: 27px 50px
 }
@@ -52,6 +57,8 @@ nav a {
 .soustitre {
     margin-top: 0px;
 }
+
+@media screen {}
 
 
 /*RECHERCHE*/
