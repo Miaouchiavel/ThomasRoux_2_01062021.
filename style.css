@@ -53,7 +53,7 @@ nav a {
     margin-top: 0px;
 }
 
-@media screen {}
+@media screen and (max-width:725px) {}
 
 
 /*RECHERCHE*/
@@ -493,6 +493,33 @@ form p {
     position: relative;
 }
 
+@media (max-width: 575px) {
+    .colone_1,
+    .colone_2,
+    .colone_3,
+    .colone_4 {
+        width: 100%;
+        height: auto;
+    }
+    .block_activites {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+    }
+    .activites_item_2,
+    .activites_item,
+    .activites_item_3,
+    .activites_item_4,
+    .activites_item_5 {
+        height: 180px;
+        margin-bottom: 20px;
+    }
+}
+
 
 /* FOOTER */
 
@@ -511,7 +538,9 @@ footer {
 
 .footer_list h6 {
     font-size: 1.1rem;
-    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    padding-top: 30px;
+    margin: 0;
 }
 
 .footer_list a {
@@ -523,4 +552,14 @@ footer {
 
 footer a:hover {
     text-decoration: underline;
+}
+
+@media (max-width: 590px) {
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer_list {
+        padding-bottom: 2rem;
+    }
 }
