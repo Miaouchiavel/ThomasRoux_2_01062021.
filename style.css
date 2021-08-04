@@ -60,6 +60,27 @@ nav a {
 
 /*RECHERCHE*/
 
+@media screen and (max-width:650px) {
+    button i {
+        display: inline
+    }
+    button span {
+        display: none
+    }
+    button {
+        border-radius: 1rem 1rem 1rem 1rem;
+    }
+}
+
+@media screen and (min-width:650px) {
+    button i {
+        display: none !important;
+    }
+    button {
+        border-radius: 0 1rem 1rem 0;
+    }
+}
+
 .fas fa-map-marker-alt {
     border-radius: 0 1rem 1rem 0;
 }
@@ -79,7 +100,6 @@ input {
 }
 
 button {
-    border-radius: 0 1rem 1rem 0;
     color: white;
     background-color: #0065FC;
     font-size: 1rem;
@@ -610,6 +630,6 @@ footer a:hover {
         width: 100%;
     }
     .footer_list {
-        padding-bottom: 2rem;
+        padding-bottom: 1.5rem;
     }
 }
