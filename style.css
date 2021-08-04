@@ -5,7 +5,7 @@ body {
 }
 
 .blocka {
-    margin: 27px 50px
+    margin: 27px 50px;
 }
 
 
@@ -53,7 +53,7 @@ nav a {
     margin-top: 0px;
 }
 
-@media screen and (max-width:725px) {}
+@media screen and (max-width:800px) {}
 
 
 /*RECHERCHE*/
@@ -188,6 +188,58 @@ form p {
 
 /*----Hebergement----*/
 
+@media screen and (max-width: 1060px) {
+    .big-container {
+        display: flex;
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+    .popular {
+        display: flex;
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+    .box_hebergement {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1060px) {
+    .popular {
+        display: flex;
+        width: 33%;
+    }
+    .box_hebergement {
+        width: 63%;
+        background: #F2F2F2;
+        padding: 1rem;
+    }
+}
+
+@media screen and (min-width:651px) {
+    .box_hebergement {
+        background: #F2F2F2;
+        padding: 1rem;
+    }
+    .hebergement_box_link {
+        margin: 1rem;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .hebergement_box_link {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .box_hebergement {
+        flex-direction: column;
+        background: white;
+        padding: 0
+    }
+}
+
 .big-container {
     display: flex;
     justify-content: space-between;
@@ -200,10 +252,7 @@ form p {
     flex-wrap: wrap;
     justify-content: space-around;
     border-radius: 20px;
-    padding: 1rem;
     margin-right: 2rem;
-    background: #F2F2F2;
-    width: 63%;
 }
 
 .box_title {
@@ -219,7 +268,6 @@ form p {
 
 .hebergement_box_link {
     padding: .3rem .3rem 0rem .3rem;
-    margin: 1rem;
     text-decoration: none;
     outline: none;
     flex: 27%;
@@ -288,7 +336,6 @@ form p {
     background-color: #F2F2F2;
     padding: 1rem;
     border-radius: 20px;
-    width: 33%;
     flex-direction: column;
 }
 
@@ -385,7 +432,7 @@ form p {
 /* ACTIVITE A MARSEILLE */
 
 #Activités {
-    font-size: 1.4rem;
+    font-size: 20px;
     margin-top: 4rem;
     margin-bottom: 2rem;
 }
@@ -409,7 +456,7 @@ form p {
     right: 0;
     border-radius: 0 0 20px 20px;
     padding: 10px 10px 15px 15px;
-    font-size: 1rem;
+    font-size: 16px;
 }
 
 .colone_1 {
@@ -493,7 +540,7 @@ form p {
     position: relative;
 }
 
-@media all and (max-width: 575px) {
+@media all and (max-width: 650px) {
     .colone_1,
     .colone_2,
     .colone_3,
@@ -529,7 +576,6 @@ footer {
     justify-content: flex-start;
     padding: 0px 50px;
     background-color: #F2F2F2;
-    width: 100%;
 }
 
 .footer_list {
@@ -538,7 +584,7 @@ footer {
 }
 
 .footer_list h6 {
-    font-size: 1.1rem;
+    font-size: 16px;
     padding-bottom: 1rem;
     padding-top: 30px;
     margin: 0;
@@ -547,7 +593,7 @@ footer {
 .footer_list a {
     display: block;
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 14px;
     margin-bottom: .5rem;
 }
 
@@ -559,6 +605,7 @@ footer a:hover {
     footer {
         display: flex;
         flex-direction: column;
+        width: 100%;
     }
     .footer_list {
         padding-bottom: 2rem;
