@@ -121,7 +121,7 @@ form {
 
 h1,
 h3 {
-    font-size: 1.5rem;
+    font-size: 21px;
 }
 
 h1 {
@@ -279,7 +279,7 @@ form p {
 
 .box_title {
     width: 100%;
-    font-size: 1.4rem;
+    font-size: 21px;
     margin: 0;
     padding: 1rem 0 0 1.5rem;
 }
@@ -383,7 +383,7 @@ form p {
 }
 
 .popular_title {
-    font-size: 1.4rem;
+    font-size: 21px;
     margin: 0;
 }
 
