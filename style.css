@@ -697,7 +697,7 @@ footer a:hover {
     text-decoration: underline;
 }
 
-@media screen and (max-width: 590px) {
+@media screen and (max-width: 650px) {
     footer {
         display: flex;
         flex-direction: column;
