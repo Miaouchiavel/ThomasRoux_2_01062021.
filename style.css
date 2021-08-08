@@ -305,7 +305,6 @@ form p {
 @media screen and (min-width:651px) {
     .box_hebergement {
         background: #F2F2F2;
-        padding: 1rem;
     }
     .hebergement_box_link {
         margin: 1rem;
@@ -424,7 +423,6 @@ form p {
 
 @media screen and (min-width:730px) {
     .popular {
-        padding: 1rem;
         border-radius: 20px;
     }
 }
