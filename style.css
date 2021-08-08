@@ -4,11 +4,25 @@ body {
     margin: 0px;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 .blocka {
     margin: 27px 50px;
 }
 
-@media screen and (max-width: 650px) {}
+@media screen and (max-width: 732px) {
+    .blocka {
+        margin: 0;
+    }
+    .logo_reservia {
+        margin: 27px 20px;
+    }
+    .blue_button {
+        margin: 27px 20px;
+    }
+    .block_b {
+        margin: 0px 20px;
+    }
+}
 
 
 /* NAV */
@@ -55,12 +69,62 @@ nav a {
     margin-top: 0px;
 }
 
-@media screen and (max-width:800px) {}
+@media screen and (max-width:732px) {
+    .header {
+        display: inline-block;
+        position: relative;
+        width: 100%;
+    }
+    .navbar {
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+    .blue_button {
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding-top: 10px;
+    }
+    .trait {
+        width: 100%;
+        display: flex;
+        padding: 0;
+        margin: 0;
+        padding-top: 10px;
+    }
+    nav a {
+        padding: 0;
+        width: 100%;
+    }
+    nav li a {
+        display: block;
+        flex: 1;
+        padding: 0;
+        text-align: center;
+        border-bottom: 3px solid #f2f2f2;
+        width: 100%;
+        padding-bottom: 20px;
+        padding-top: 10px;
+    }
+    nav li {
+        flex: 1;
+        padding: 0;
+        text-align: center;
+    }
+    nav a:hover {
+        color: #0065FC;
+        border-bottom: 3px #0065FC solid;
+        border-top: none;
+    }
+    .blue_button a:hover {
+        border: none;
+    }
+}
 
 
 /*RECHERCHE*/
 
-@media screen and (max-width:650px) {
+@media screen and (max-width:649px) {
     button i {
         display: inline
     }
@@ -250,10 +314,10 @@ form p {
 
 @media screen and (max-width:650px) {
     .hebergement_box_link {
-        width: 100%;
-        margin-left: 0;
+        margin-left: 20px;
         margin-top: 1rem;
         margin-bottom: 1rem;
+        margin-right: 50px;
     }
     .box_hebergement {
         flex-direction: column;
@@ -351,13 +415,25 @@ form p {
 
 /*---POPULAIR ---*/
 
+@media screen and (max-width:730px) {
+    .popular {
+        padding: 0rem;
+        border-radius: 0;
+    }
+}
+
+@media screen and (min-width:730px) {
+    .popular {
+        padding: 1rem;
+        border-radius: 20px;
+    }
+}
+
 .popular {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     background-color: #F2F2F2;
-    padding: 1rem;
-    border-radius: 20px;
     flex-direction: column;
 }
 
@@ -596,7 +672,7 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    padding: 0px 50px;
+    padding-left: 50px;
     background-color: #F2F2F2;
 }
 
@@ -627,7 +703,6 @@ footer a:hover {
     footer {
         display: flex;
         flex-direction: column;
-        width: 100%;
     }
     .footer_list {
         padding-bottom: 1.5rem;
