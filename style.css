@@ -358,7 +358,7 @@ form p {
     flex: 27%;
     border-radius: 20px;
     background-color: white;
-    box-shadow: .1rem .1rem .4rem rgba(0, 0, 0, 0.282);
+    box-shadow: 0 5px 40px -20px rgba(5, 5, 5, 0.713);
 }
 
 .hebergement_box_picture {
