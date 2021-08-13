@@ -396,6 +396,7 @@ form p {
 .hebergement_star {
     font-size: 1rem;
     color: #0065fc;
+    padding-bottom: 5px;
 }
 
 .hebergement-plus {
